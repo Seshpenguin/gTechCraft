@@ -1,7 +1,9 @@
 gTechCraft
 ==========
 gTechCraft: a simple mod with all the tech! (And *some* magic)
+=
 MC Version: 1.7.2
+=
 Mod Version: 0.1-alpha
 Full Version: 1.7.2-0.1-alpha
 
