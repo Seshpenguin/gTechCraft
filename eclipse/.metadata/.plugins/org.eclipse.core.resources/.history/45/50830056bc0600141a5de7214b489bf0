@@ -1,0 +1,37 @@
+package tk.genesishub.gtechcraft.configuration;
+
+import java.io.File;
+
+import net.minecraftforge.common.config.Configuration;
+
+public class ConfigurationHandler {
+	
+	public static Configuration configuration;
+	
+	public static void init(File configFile)
+	{
+		//create a configuration object from the given configuration file
+		configuration = new Configuration(configFile);
+		boolean configValue = false;
+		try
+		{
+			//load the configuration file
+			configuration.load();
+			
+			//read in properties from configuration file
+			configValue = configuration.get(Configuration.CATEGORY_GENERAL, "configValue", true, "This is a exmaple config value").getBoolean(true);
+		}
+		catch (Exception e)
+		{
+			//Log the exception
+		}
+		finally
+		{
+			//save the configuration file
+			configuration.save();
+		}
+		
+		System.out.println("[gTechCraft] Configuration Test: " + configValue);
+	}
+
+}

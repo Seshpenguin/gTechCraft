@@ -1,0 +1,37 @@
+package tk.genesishub.gtechcraft;
+
+import tk.genesishub.gtechcraft.proxy.IProxy;
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.SidedProxy;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+
+@Mod(modid="gtechcraft", name="gTechCraft", version="1.7.2-0.1-alpha")
+public class Main {
+	
+	@Mod.Instance("gtechcraft")
+	public static Main instance;
+	
+	@SidedProxy(clientSide = "tk.genesishub.gtechcraft.proxy.ClientProxy", serverSide = "tk.genesishub.gtechcraft.proxy.ServerProxy")
+	public static IProxy proxy;
+	
+	@Mod.EventHandler
+	public void preInit(FMLPreInitializationEvent event) //Items, network handlers, etc
+	{
+		
+	}
+	
+	@Mod.EventHandler
+	public void init (FMLInitializationEvent event) //GUIs, crafting, etc
+	{
+		
+	}
+	
+	@Mod.EventHandler
+	public void postInit (FMLPostInitializationEvent event) //Run code after other mods
+	{
+		
+	}
+	
+}

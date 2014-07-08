@@ -1,0 +1,5 @@
+package tk.genesishub.gtechcraft.client.gui;
+
+public class GuiConfig {
+
+}

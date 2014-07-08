@@ -1,0 +1,18 @@
+package tk.genesishub.gtechcraft.block;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+
+public class BlockGTC extends Block{
+	
+	public BlockGTC(Material material)
+	{
+		super(material);
+	}
+	
+	public BlockGTC()
+	{
+		this(Material.rock);
+	}
+
+}

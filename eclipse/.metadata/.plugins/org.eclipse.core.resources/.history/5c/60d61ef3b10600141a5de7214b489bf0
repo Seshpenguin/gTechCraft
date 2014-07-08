@@ -1,0 +1,8 @@
+package tk.genesishub.gtechcraft.reference;
+
+public class Reference {
+	public static final String MOD_ID="gtechcraft";
+	public static final String MOD_NAME="gTechCraft";
+	
+
+}

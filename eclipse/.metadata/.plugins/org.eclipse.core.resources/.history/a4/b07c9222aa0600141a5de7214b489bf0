@@ -1,0 +1,8 @@
+package tk.genesishub.gtechcraft;
+
+import cpw.mods.fml.common.Mod;
+
+@Mod(modid="gtechcraft", name="gTechCraft", version="1.7.2-0.1-alpha")
+public class Main {
+
+}

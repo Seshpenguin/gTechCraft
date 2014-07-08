@@ -1,0 +1,9 @@
+package tk.genesishub.gtechcraft.configuration;
+
+public class ConfigurationHandler {
+	public static void init()
+	{
+		
+	}
+
+}

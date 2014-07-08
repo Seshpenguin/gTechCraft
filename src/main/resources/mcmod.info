@@ -1,0 +1,21 @@
+[
+{
+  "modid": "gtechcraft",
+  "name": "gTechCraft",
+  "description": "gTechCraft, a simple mod with all the tech! (And maybe *some* magic).",
+  "version": "0.1-alpha",
+  "mcversion": "1.7.2",
+  "url": "http://genesishub.tk/",
+  "updateUrl": "",
+  "authorList": [
+    "Seshpenguin"
+  ],
+  "credits": "Pahimar! His Lets Mod Reboot series is awesome!",
+  "logoFile": "",
+  "screenshots": [
+  ],
+  "parent":"",
+  "dependencies": [
+  ]
+}
+]

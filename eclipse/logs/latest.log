@@ -1,0 +1,96 @@
+[17:48:05] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[17:48:05] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
+[17:48:05] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
+[17:48:05] [main/INFO]: Forge Mod Loader version 7.2.217.1147 for Minecraft 1.7.2 loading
+[17:48:05] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_05, running on Windows 8.1:amd64:6.3, installed at C:\Program Files\Java\jre8
+[17:48:05] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[17:48:05] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:48:05] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[17:48:05] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:48:05] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
+[17:48:05] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:48:06] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
+[17:48:07] [main/ERROR]: The minecraft jar file:/C:/Users/Seshan/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.2.1147/forgeBin-1.7.2-10.12.2.1147.jar!/net/minecraft/client/ClientBrandRetriever.class appears to be corrupt! There has been CRITICAL TAMPERING WITH MINECRAFT, it is highly unlikely minecraft will work! STOP NOW, get a clean copy and try again!
+[17:48:07] [main/ERROR]: FML has been ordered to ignore the invalid or missing minecraft certificate. This is very likely to cause a problem!
+[17:48:07] [main/ERROR]: Technical information: ClientBrandRetriever was at jar:file:/C:/Users/Seshan/.gradle/caches/minecraft/net/minecraftforge/forge/1.7.2-10.12.2.1147/forgeBin-1.7.2-10.12.2.1147.jar!/net/minecraft/client/ClientBrandRetriever.class, there were 0 certificates for it
+[17:48:07] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
+[17:48:07] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
+[17:48:07] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
+[17:48:08] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[17:48:11] [main/INFO]: Setting user: Player859
+[17:48:12] [Client thread/INFO]: LWJGL Version: 2.9.0
+[17:48:13] [Client thread/INFO]: Attempting early MinecraftForge initialization
+[17:48:13] [Client thread/INFO]: MinecraftForge v10.12.2.1147 Initialized
+[17:48:14] [Client thread/INFO]: Replaced 182 ore recipies
+[17:48:14] [Client thread/INFO]: Completed early MinecraftForge initialization
+[17:48:14] [Client thread/INFO]: Searching C:\Projects\Minecraft\1.7\gTechCraft\eclipse\mods for mods
+[17:48:15] [Client thread/ERROR]: FML has detected a mod that is using a package name based on 'net.minecraft.src' : net.minecraft.src.FMLRenderAccessLibrary. This is generally a severe programming error.  There should be no mod code in the minecraft namespace. MOVE YOUR MOD! If you're in eclipse, select your source code and 'refactor' it into a new package. Go on. DO IT NOW!
+[17:48:15] [Client thread/ERROR]: FML has detected a mod that is using a package name based on 'net.minecraft.src' : net.minecraft.src.Start. This is generally a severe programming error.  There should be no mod code in the minecraft namespace. MOVE YOUR MOD! If you're in eclipse, select your source code and 'refactor' it into a new package. Go on. DO IT NOW!
+[17:48:17] [Client thread/INFO]: Forge Mod Loader has identified 4 mods to load
+[17:48:18] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:gTechCraft
+[17:48:18] [Client thread/INFO]: Processing ObjectHolder annotations
+[17:48:18] [Client thread/INFO]: Found 342 ObjectHolder annotations
+[17:48:18] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[17:48:18] [Client thread/INFO]: Pre Initialization Complete!
+[17:48:18] [Client thread/INFO]: Applying holder lookups
+[17:48:18] [Client thread/INFO]: Holder lookups applied
+[17:48:19] [Sound Library Loader/INFO]: Sound engine started
+[17:48:20] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[17:48:20] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[17:48:20] [Client thread/INFO]: Initialization Complete!
+[17:48:20] [Client thread/INFO]: Post Initialization Complete! All ready for take off!
+[17:48:21] [Client thread/INFO]: Forge Mod Loader has successfully loaded 4 mods
+[17:48:21] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:gTechCraft
+[17:48:21] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[17:48:21] [Client thread/INFO]: Created: 256x256 textures/items-atlas
+[17:48:22] [Sound Library Loader/INFO]: Sound engine started
+[17:48:23] [MCO Availability Checker #1/ERROR]: Couldn't connect to Realms
+[17:48:31] [Server thread/INFO]: Starting integrated minecraft server version 1.7.2
+[17:48:31] [Server thread/INFO]: Generating keypair
+[17:48:31] [Server thread/INFO]: Injecting existing block and item data into this server instance
+[17:48:31] [Server thread/INFO]: Applying holder lookups
+[17:48:31] [Server thread/INFO]: Holder lookups applied
+[17:48:31] [Server thread/INFO]: Loading dimension 0 (gTechCraft (1.7.2-0.1-alpha)) (net.minecraft.server.integrated.IntegratedServer@5772e0c4)
+[17:48:31] [Server thread/INFO]: Loading dimension 1 (gTechCraft (1.7.2-0.1-alpha)) (net.minecraft.server.integrated.IntegratedServer@5772e0c4)
+[17:48:31] [Server thread/INFO]: Loading dimension -1 (gTechCraft (1.7.2-0.1-alpha)) (net.minecraft.server.integrated.IntegratedServer@5772e0c4)
+[17:48:31] [Server thread/INFO]: Preparing start region for level 0
+[17:48:32] [Server thread/INFO]: Preparing spawn area: 92%
+[17:48:33] [Netty Client IO #0/INFO]: Server protocol version 1
+[17:48:33] [Netty IO #1/INFO]: Client protocol version 1
+[17:48:33] [Netty IO #1/INFO]: Client attempting to join with 4 mods : FML@7.2.217.1147,Forge@10.12.2.1147,mcp@9.03,gtechcraft@1.7.2-0.1-alpha
+[17:48:33] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
+[17:48:33] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
+[17:48:33] [Server thread/INFO]: [Server thread] Server side modded connection established
+[17:48:33] [Client thread/INFO]: [Client thread] Client side modded connection established
+[17:48:33] [Server thread/INFO]: Player859[local:E:f1c3a228] logged in with entity id 296 at (-215.56098655651118, 64.0, 143.44490183666915)
+[17:48:33] [Server thread/INFO]: Player859 joined the game
+[17:48:54] [Server thread/INFO]: Saving and pausing game...
+[17:48:54] [Server thread/INFO]: Saving chunks for level 'gTechCraft (1.7.2-0.1-alpha)'/Overworld
+[17:48:54] [Server thread/INFO]: Saving chunks for level 'gTechCraft (1.7.2-0.1-alpha)'/Nether
+[17:48:54] [Server thread/INFO]: Saving chunks for level 'gTechCraft (1.7.2-0.1-alpha)'/The End
+[17:49:16] [Server thread/INFO]: Player859 has just earned the achievement [Taking Inventory]
+[17:49:16] [Client thread/INFO]: [CHAT] Player859 has just earned the achievement [Taking Inventory]
+[17:50:02] [Server thread/INFO]: Saving and pausing game...
+[17:50:02] [Server thread/INFO]: Saving chunks for level 'gTechCraft (1.7.2-0.1-alpha)'/Overworld
+[17:50:03] [Server thread/INFO]: Saving chunks for level 'gTechCraft (1.7.2-0.1-alpha)'/Nether
+[17:50:03] [Server thread/INFO]: Saving chunks for level 'gTechCraft (1.7.2-0.1-alpha)'/The End
+[18:08:44] [Server thread/INFO]: Saving and pausing game...
+[18:08:44] [Server thread/INFO]: Saving chunks for level 'gTechCraft (1.7.2-0.1-alpha)'/Overworld
+[18:08:44] [Server thread/INFO]: Saving chunks for level 'gTechCraft (1.7.2-0.1-alpha)'/Nether
+[18:08:44] [Server thread/INFO]: Saving chunks for level 'gTechCraft (1.7.2-0.1-alpha)'/The End
+[18:32:09] [Server thread/INFO]: Saving and pausing game...
+[18:32:09] [Server thread/INFO]: Saving chunks for level 'gTechCraft (1.7.2-0.1-alpha)'/Overworld
+[18:32:09] [Server thread/INFO]: Saving chunks for level 'gTechCraft (1.7.2-0.1-alpha)'/Nether
+[18:32:09] [Server thread/INFO]: Saving chunks for level 'gTechCraft (1.7.2-0.1-alpha)'/The End
+[18:34:27] [Server thread/INFO]: [Player859: Set own game mode to Survival Mode]
+[18:34:27] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[18:34:55] [Server thread/INFO]: Player859 tried to swim in lava
+[18:34:55] [Client thread/INFO]: [CHAT] Player859 tried to swim in lava
+[18:35:51] [Server thread/INFO]: Saving and pausing game...
+[18:35:51] [Server thread/INFO]: Saving chunks for level 'gTechCraft (1.7.2-0.1-alpha)'/Overworld
+[18:35:51] [Server thread/INFO]: Saving chunks for level 'gTechCraft (1.7.2-0.1-alpha)'/Nether
+[18:35:51] [Server thread/INFO]: Saving chunks for level 'gTechCraft (1.7.2-0.1-alpha)'/The End
+[18:44:21] [Server thread/INFO]: Saving and pausing game...
+[18:44:21] [Server thread/INFO]: Saving chunks for level 'gTechCraft (1.7.2-0.1-alpha)'/Overworld
+[18:44:21] [Server thread/INFO]: Saving chunks for level 'gTechCraft (1.7.2-0.1-alpha)'/Nether
+[18:44:21] [Server thread/INFO]: Saving chunks for level 'gTechCraft (1.7.2-0.1-alpha)'/The End
